@@ -16,6 +16,12 @@
 		5EFF54692B812B7C008661C3 /* SwiftArquiteturasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54682B812B7C008661C3 /* SwiftArquiteturasTests.swift */; };
 		5EFF54732B812B7C008661C3 /* SwiftArquiteturasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54722B812B7C008661C3 /* SwiftArquiteturasUITests.swift */; };
 		5EFF54752B812B7C008661C3 /* SwiftArquiteturasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54742B812B7C008661C3 /* SwiftArquiteturasUITestsLaunchTests.swift */; };
+		5EFF54852B812F86008661C3 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54842B812F86008661C3 /* Constans.swift */; };
+		5EFF548B2B812FCB008661C3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF548A2B812FCB008661C3 /* UserModel.swift */; };
+		5EFF548D2B812FE4008661C3 /* UserBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF548C2B812FE4008661C3 /* UserBusiness.swift */; };
+		5EFF548F2B812FFB008661C3 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF548E2B812FFB008661C3 /* UserManager.swift */; };
+		5EFF54912B813015008661C3 /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54902B813015008661C3 /* UserProvider.swift */; };
+		5EFF54932B81330A008661C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EFF54922B81330A008661C3 /* GoogleService-Info.plist */; };
 		811147AA28F0F3FD43E58B8F /* Pods_SwiftArquiteturasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B73957DF64A6C0D84C4C92 /* Pods_SwiftArquiteturasTests.framework */; };
 		CAE721F1A867AEAFBE7B16F8 /* Pods_SwiftArquiteturas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C3237E38C582F6E8359A70 /* Pods_SwiftArquiteturas.framework */; };
 		F1B4E7EC42D58926F736699A /* Pods_SwiftArquiteturas_SwiftArquiteturasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443CA6D0A57EB4945E89EDAE /* Pods_SwiftArquiteturas_SwiftArquiteturasUITests.framework */; };
@@ -58,6 +64,12 @@
 		5EFF546E2B812B7C008661C3 /* SwiftArquiteturasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftArquiteturasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFF54722B812B7C008661C3 /* SwiftArquiteturasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftArquiteturasUITests.swift; sourceTree = "<group>"; };
 		5EFF54742B812B7C008661C3 /* SwiftArquiteturasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftArquiteturasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EFF54842B812F86008661C3 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		5EFF548A2B812FCB008661C3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		5EFF548C2B812FE4008661C3 /* UserBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBusiness.swift; sourceTree = "<group>"; };
+		5EFF548E2B812FFB008661C3 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		5EFF54902B813015008661C3 /* UserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
+		5EFF54922B81330A008661C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		708B012AFF610D72032B03FB /* Pods-SwiftArquiteturasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftArquiteturasTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftArquiteturasTests/Pods-SwiftArquiteturasTests.release.xcconfig"; sourceTree = "<group>"; };
 		99435230AABA68793EE53663 /* Pods-SwiftArquiteturasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftArquiteturasTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftArquiteturasTests/Pods-SwiftArquiteturasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C3A8E27E369F15FE91B6FE1 /* Pods-SwiftArquiteturas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftArquiteturas.debug.xcconfig"; path = "Target Support Files/Pods-SwiftArquiteturas/Pods-SwiftArquiteturas.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +132,7 @@
 				5EFF54822B812D58008661C3 /* Source */,
 				5EFF54812B812D4F008661C3 /* Infrastructure */,
 				5EFF545F2B812B7C008661C3 /* Info.plist */,
+				5EFF54922B81330A008661C3 /* GoogleService-Info.plist */,
 			);
 			path = SwiftArquiteturas;
 			sourceTree = "<group>";
@@ -144,6 +157,7 @@
 		5EFF54812B812D4F008661C3 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				5EFF54842B812F86008661C3 /* Constans.swift */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -164,8 +178,44 @@
 		5EFF54832B812D65008661C3 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				5EFF54892B812FB9008661C3 /* Provider */,
+				5EFF54882B812FB2008661C3 /* Manager */,
+				5EFF54872B812FA9008661C3 /* Business */,
+				5EFF54862B812F9F008661C3 /* Model */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		5EFF54862B812F9F008661C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5EFF548A2B812FCB008661C3 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EFF54872B812FA9008661C3 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				5EFF548C2B812FE4008661C3 /* UserBusiness.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		5EFF54882B812FB2008661C3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5EFF548E2B812FFB008661C3 /* UserManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5EFF54892B812FB9008661C3 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				5EFF54902B813015008661C3 /* UserProvider.swift */,
+			);
+			path = Provider;
 			sourceTree = "<group>";
 		};
 		B2D84E72BB8AA8EB45FCCAE5 /* Pods */ = {
@@ -301,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EFF545E2B812B7C008661C3 /* LaunchScreen.storyboard in Resources */,
+				5EFF54932B81330A008661C3 /* GoogleService-Info.plist in Resources */,
 				5EFF545B2B812B7C008661C3 /* Assets.xcassets in Resources */,
 				5EFF54592B812B7B008661C3 /* Main.storyboard in Resources */,
 			);
@@ -432,7 +483,12 @@
 			files = (
 				5EFF54562B812B7B008661C3 /* ViewController.swift in Sources */,
 				5EFF54522B812B7B008661C3 /* AppDelegate.swift in Sources */,
+				5EFF548F2B812FFB008661C3 /* UserManager.swift in Sources */,
+				5EFF548D2B812FE4008661C3 /* UserBusiness.swift in Sources */,
+				5EFF54852B812F86008661C3 /* Constans.swift in Sources */,
+				5EFF548B2B812FCB008661C3 /* UserModel.swift in Sources */,
 				5EFF54542B812B7B008661C3 /* SceneDelegate.swift in Sources */,
+				5EFF54912B813015008661C3 /* UserProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,7 +684,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.kairos.SwiftArquiteturas;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.kairos.Arquiteturas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -657,7 +713,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.kairos.SwiftArquiteturas;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.kairos.Arquiteturas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
