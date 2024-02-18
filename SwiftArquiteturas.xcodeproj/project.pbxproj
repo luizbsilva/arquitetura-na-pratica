@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5EFF54522B812B7B008661C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54512B812B7B008661C3 /* AppDelegate.swift */; };
 		5EFF54542B812B7B008661C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54532B812B7B008661C3 /* SceneDelegate.swift */; };
-		5EFF54562B812B7B008661C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54552B812B7B008661C3 /* ViewController.swift */; };
+		5EFF54562B812B7B008661C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54552B812B7B008661C3 /* HomeViewController.swift */; };
 		5EFF54592B812B7B008661C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFF54572B812B7B008661C3 /* Main.storyboard */; };
 		5EFF545B2B812B7C008661C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFF545A2B812B7C008661C3 /* Assets.xcassets */; };
 		5EFF545E2B812B7C008661C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFF545C2B812B7C008661C3 /* LaunchScreen.storyboard */; };
@@ -22,6 +22,8 @@
 		5EFF548F2B812FFB008661C3 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF548E2B812FFB008661C3 /* UserManager.swift */; };
 		5EFF54912B813015008661C3 /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54902B813015008661C3 /* UserProvider.swift */; };
 		5EFF54932B81330A008661C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EFF54922B81330A008661C3 /* GoogleService-Info.plist */; };
+		5EFF54962B8238E0008661C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54952B8238E0008661C3 /* LoginViewController.swift */; };
+		5EFF54982B823919008661C3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFF54972B823919008661C3 /* RegisterViewController.swift */; };
 		811147AA28F0F3FD43E58B8F /* Pods_SwiftArquiteturasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B73957DF64A6C0D84C4C92 /* Pods_SwiftArquiteturasTests.framework */; };
 		CAE721F1A867AEAFBE7B16F8 /* Pods_SwiftArquiteturas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C3237E38C582F6E8359A70 /* Pods_SwiftArquiteturas.framework */; };
 		F1B4E7EC42D58926F736699A /* Pods_SwiftArquiteturas_SwiftArquiteturasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443CA6D0A57EB4945E89EDAE /* Pods_SwiftArquiteturas_SwiftArquiteturasUITests.framework */; };
@@ -54,7 +56,7 @@
 		5EFF544E2B812B7B008661C3 /* SwiftArquiteturas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftArquiteturas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFF54512B812B7B008661C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EFF54532B812B7B008661C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EFF54552B812B7B008661C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EFF54552B812B7B008661C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5EFF54582B812B7B008661C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EFF545A2B812B7C008661C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EFF545D2B812B7C008661C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,6 +72,8 @@
 		5EFF548E2B812FFB008661C3 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		5EFF54902B813015008661C3 /* UserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
 		5EFF54922B81330A008661C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5EFF54952B8238E0008661C3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5EFF54972B823919008661C3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		708B012AFF610D72032B03FB /* Pods-SwiftArquiteturasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftArquiteturasTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftArquiteturasTests/Pods-SwiftArquiteturasTests.release.xcconfig"; sourceTree = "<group>"; };
 		99435230AABA68793EE53663 /* Pods-SwiftArquiteturasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftArquiteturasTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftArquiteturasTests/Pods-SwiftArquiteturasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C3A8E27E369F15FE91B6FE1 /* Pods-SwiftArquiteturas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftArquiteturas.debug.xcconfig"; path = "Target Support Files/Pods-SwiftArquiteturas/Pods-SwiftArquiteturas.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +132,7 @@
 		5EFF54502B812B7B008661C3 /* SwiftArquiteturas */ = {
 			isa = PBXGroup;
 			children = (
+				5EFF54942B8145E1008661C3 /* Controllers */,
 				5EFF54832B812D65008661C3 /* API */,
 				5EFF54822B812D58008661C3 /* Source */,
 				5EFF54812B812D4F008661C3 /* Infrastructure */,
@@ -167,7 +172,6 @@
 			children = (
 				5EFF54512B812B7B008661C3 /* AppDelegate.swift */,
 				5EFF54532B812B7B008661C3 /* SceneDelegate.swift */,
-				5EFF54552B812B7B008661C3 /* ViewController.swift */,
 				5EFF54572B812B7B008661C3 /* Main.storyboard */,
 				5EFF545A2B812B7C008661C3 /* Assets.xcassets */,
 				5EFF545C2B812B7C008661C3 /* LaunchScreen.storyboard */,
@@ -216,6 +220,16 @@
 				5EFF54902B813015008661C3 /* UserProvider.swift */,
 			);
 			path = Provider;
+			sourceTree = "<group>";
+		};
+		5EFF54942B8145E1008661C3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EFF54552B812B7B008661C3 /* HomeViewController.swift */,
+				5EFF54952B8238E0008661C3 /* LoginViewController.swift */,
+				5EFF54972B823919008661C3 /* RegisterViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		B2D84E72BB8AA8EB45FCCAE5 /* Pods */ = {
@@ -481,7 +495,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EFF54562B812B7B008661C3 /* ViewController.swift in Sources */,
+				5EFF54962B8238E0008661C3 /* LoginViewController.swift in Sources */,
+				5EFF54982B823919008661C3 /* RegisterViewController.swift in Sources */,
+				5EFF54562B812B7B008661C3 /* HomeViewController.swift in Sources */,
 				5EFF54522B812B7B008661C3 /* AppDelegate.swift in Sources */,
 				5EFF548F2B812FFB008661C3 /* UserManager.swift in Sources */,
 				5EFF548D2B812FE4008661C3 /* UserBusiness.swift in Sources */,
